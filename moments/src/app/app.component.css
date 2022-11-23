@@ -15,3 +15,8 @@ a {
 a:hover {
     color: #dec129;
 }
+
+.container {
+    min-height: 65vh;
+    margin-top: 1em;
+}
