@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Moment } from 'src/app/moment';
+
 @Component({
   selector: 'app-new-moment',
   templateUrl: './new-moment.component.html',
@@ -11,6 +13,10 @@ export class NewMomentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  async createHandler(moment: Moment){
+    console.log("funfou")
   }
 
 }
